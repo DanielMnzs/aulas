@@ -1,4 +1,7 @@
-n1 = int(input('digite um valor: '))
-n2 = int(input('digite outro valor: '))
-soma = n1 + n2
-print('a soma de {} com {} é igual a {}'.format(n1,n2,soma))
+carros = {'Jeep Renegade':[ ['90000']], 'Jeep Compass': '150000', 'Troller': '200000', }
+print(carros)
+print(carros['Jeep Compass'])
+print(carros.keys())
+print(carros.values())
+
+carros['Jeep Renegade'] = '2019'
